@@ -148,7 +148,7 @@ module.exports = function(grunt) {
       min: tree.toCSS(options)
     };
     if (!grunt.util._.isEmpty(options)) {
-      result.max = tree.toCSS();
+      //result.max = tree.toCSS();
     }
     return result;
   };
